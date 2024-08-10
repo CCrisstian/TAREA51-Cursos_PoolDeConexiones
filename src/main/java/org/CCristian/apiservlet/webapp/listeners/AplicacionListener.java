@@ -13,6 +13,6 @@ public class AplicacionListener implements ServletContextListener, ServletReques
     /*ServletRequestListener*/
     @Override
     public void requestInitialized(ServletRequestEvent sre) {
-        sre.getServletRequest().setAttribute("title","TAREA 49: ");   /*title por defecto - header.jsp*/
+        sre.getServletRequest().setAttribute("title","TAREA 51: Pool de Conexiones- ");   /*title por defecto - header.jsp*/
     }
 }
